@@ -1,0 +1,10 @@
+{   
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/",             
+            "Source\\Polimorphism\\": "src/polimorphism",             
+            "Source\\Association\\": "src/association",              
+            "Source\\Composition\\": "src/composition"             
+        }
+    }    
+}
