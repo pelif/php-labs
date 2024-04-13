@@ -4,7 +4,8 @@
             "Source\\": "src/",             
             "Source\\Polimorphism\\": "src/polimorphism",             
             "Source\\Association\\": "src/association",              
-            "Source\\Composition\\": "src/composition"             
+            "Source\\Composition\\": "src/composition",              
+            "Source\\Aggregation\\": "src/aggregation"             
         }
     }    
 }
