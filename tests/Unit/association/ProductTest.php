@@ -19,7 +19,7 @@ class ProductTest extends TestCase
             description: 'Product One to Tests'
         );    
 
-        $this->asserttrue($this->product instanceof Product);         
+        $this->assertTrue($this->product instanceof Product);         
     }
 
     public function testAddCategory(): void

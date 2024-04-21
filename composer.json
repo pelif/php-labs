@@ -6,6 +6,8 @@
             "Source\\Association\\": "src/association",              
             "Source\\Composition\\": "src/composition",              
             "Source\\Aggregation\\": "src/aggregation", 
+            "Source\\Orders\\": "src/Orders", 
+            "Source\\Payment\\": "src/Payment", 
             "Tests\\": "tests"            
         }
     },
