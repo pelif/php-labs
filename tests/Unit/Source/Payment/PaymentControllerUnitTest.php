@@ -10,6 +10,11 @@ use stdClass;
 
 class PaymentControllerUnitTest extends TestCase
 {
+
+    // protected function setUp(): void 
+    // {
+    // }
+
     public function testCategory(): void
     {
         $mockPayment = Mockery::mock(stdClass::class, PaymentInterface::class); 
@@ -18,14 +23,13 @@ class PaymentControllerUnitTest extends TestCase
             ->shouldReceive('makePayment')
             ->times(1)
             ->andReturn(true); 
-
-        $mockPayment
-            ->shouldReceive('createPlan')
-            ->andReturn(true); 
-
+      
         $payment = new PaymentController($mockPayment); 
+
+        // act
         $response = $payment->execute();
 
+        // Assert
         $this->assertTrue($response);        
     }
 
